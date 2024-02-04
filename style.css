@@ -1,0 +1,364 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: white;
+    width: 100%;
+}
+
+.main {}
+
+.row1 {
+    width: 1000px;
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 1000px;
+}
+
+.row1img {
+    width: 1000px;
+    background: url("./images/headerbg.jpg") fixed center;
+    background-size: cover;
+    height: 2000px
+}
+
+.imglogo {
+    height: 1000px;
+    width: 568px;
+    text-align: right;
+    float: right;
+    padding: 26px 0px;
+    /* border: 1px solid rgb(68, 78, 210); */
+}
+
+.imglogo img:first-child {
+    /* border: 1px solid green; */
+    margin-top: 33px;
+    float: left;
+}
+
+.imglogo img:last-child {
+    /* border: 1px solid green; */
+    padding-top: 30px;
+    float: left;
+    padding-left: 31px;
+}
+
+.menuulli {
+    width: 1000px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-top: 14px solid #182d55;
+    border-bottom: 28px solid #182d55;
+    color: white;
+}
+
+.menuulli ul li {
+    border-right: 2px solid white;
+    display: inline-block;
+    padding: 15px 34px;
+    margin-top: 34px;
+}
+
+.menuulli ul li:last-child {
+    border: none;
+}
+
+.menuulli ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.helicoptersjpg {
+    width: 1000px;
+    height: 200px;
+    border-top: 14px solid #182d55;
+    border-bottom: 36px solid #182d55;
+}
+
+.AerialApplicators {
+    width: 1000px;
+    height: 351px;
+    background: url("./images/frameimg1.jpg") fixed;
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+
+.AerialApplicatorstrans {
+    width: 1000px;
+    height: 203px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.Aerial {
+    display: table;
+    border: 6px solid white;
+    margin: auto;
+    font-size: 24px;
+}
+
+.backgroundwhite {
+    width: 1000px;
+    height: 900px;
+    background: white;
+}
+
+.paragraph {
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.paragraph p:first-child {
+    line-height: 37px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.paragraph p:last-child {
+    line-height: 37px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.br {
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 25px;
+}
+
+.imgfan {
+    width: 1000px;
+    height: 100px;
+    /* border: 1px solid greenyellow; */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.back-to-top {
+    width: 1000px;
+    height: 50px;
+    /* border: 1px solid greenyellow; */
+    text-align: center;
+    font-size: 30px;
+}
+
+.Helicopter-Services-main {
+    width: 1000px;
+    height: 1250px;
+    /* border: 1px solid red; */
+}
+
+.Helicopter-Services {
+    width: 1000px;
+    height: 350px;
+    background: url("./images/frameimg2.jpg") fixed;
+    background-size: cover;
+    /* border: 1px solid red; */
+}
+
+.Helicopter-Services-trans {
+    width: 1000px;
+    height: 209px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 141px;
+}
+
+.middleline {
+    width: 750px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: auto;
+}
+
+.hrline {
+    width: 230px;
+    border: #fff 4px solid;
+    float: left;
+    margin-top: 19px;
+}
+
+.hrline2 {
+    width: 230px;
+    border: #fff 4px solid;
+    float: left;
+    margin-top: 19px;
+}
+
+.Helicopter-Services-border {
+    border: 8px solid white;
+    display: table;
+    float: left;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+}
+
+.helicoperpar {
+    width: 1000px;
+    height: 400px;
+    background: white;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 72px;
+    font-size: 20px;
+}
+
+.helicoperpar p:first-child {
+    /* border: 1px solid red; */
+}
+
+.helicoperpar p:last-child {
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    line-height: 27px;
+}
+
+.br2 {
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 25px;
+    margin-top: 56px;
+}
+
+.Flight-Training-Centre-main {
+    width: 1000px;
+    height: 1250px;
+    /* border: 1px solid red; */
+}
+
+.flight-Services {
+    width: 1000px;
+    height: 350px;
+    background: url("./images/frameimg3.jpg") fixed;
+    background-size: cover;
+}
+
+.flight-Services-trans {
+    width: 1000px;
+    height: 209px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 141px;
+}
+
+.Charters-Training-Centre-main {
+    width: 1000px;
+    height: 850px;
+    /* border: 1px solid red; */
+}
+
+.Charters-Services {
+    width: 1000px;
+    height: 350px;
+    background: url("./images/frameimg4.jpg") fixed;
+    background-size: cover;
+}
+
+.Charters-Services-trans {
+    width: 1000px;
+    height: 209px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 141px;
+}
+
+.middleline-charters {
+    width: 750px;
+    text-align: center;
+    margin: auto;
+    padding-left: 122px;
+}
+
+.Contact-us-Training-Centre-main {
+    width: 1000px;
+    height: 800px;
+    /* border: 1px solid red; */
+}
+
+.Contact-us-Services {
+    width: 1000px;
+    height: 350px;
+    background: url("./images/frameimg5.jpg") fixed;
+    background-size: cover;
+}
+
+.Contact-us-Services-trans {
+    width: 1000px;
+    height: 209px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 141px;
+}
+
+.helicoperpar2 {
+    width: 1000px;
+    height: 150px;
+    /* border: 2px solid yellowgreen; */
+}
+
+.parcharters {
+    width: 1000px;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    /* border: 1px solid red; */
+    line-height: 33px;
+}
+
+.br3 {
+    display: table;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.helicoperpar3 {
+    display: table;
+    font-size: 25px;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 40px;
+}
+
+.br4 {
+    display: table;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.hr {
+    width: 1000px;
+    border: 2px solid #0c0c0d;
+    margin-top: 104px;
+}
+
+.back-to-top-contact-us {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding-top: 31px;
+    font-size: 25px;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: #182D55;
+}
